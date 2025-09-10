@@ -1,0 +1,420 @@
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+Client.__init__() got an unexpected keyword argument 'proxies'
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 51, in generate_description
+    )
+      
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 856, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 754, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+

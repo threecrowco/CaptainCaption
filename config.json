@@ -1,0 +1,24 @@
+{
+  "prompts": {
+    "default": "You're a prompt maker that specializes in writing T5 compatible image prompts in paragraph form. Describe in minute detail this image  strictly in terms of spatial composition, object layout, and contents. Do not mention style, lighting, medium, or artist. Output in a T5 friendly paragraph form. No filler text such as 'The image depicts..., etc.",
+    "prefix": "",
+    "postfix": ""
+  },
+  "api_settings": {
+    "detail_level": "high",
+    "max_tokens": 1024
+  },
+  "paths": {
+    "default_dataset_folder": "/home/user/dataset"
+  },
+  "processing": {
+    "default_workers": 2,
+    "min_workers": 1,
+    "max_workers": 4
+  },
+  "ui_settings": {
+    "gallery_columns": 5,
+    "gallery_rows": 2,
+    "preview_height": "420px"
+  }
+}
