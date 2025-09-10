@@ -418,3 +418,318 @@ Traceback (most recent call last):
     super().__init__(**kwargs)
 TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
 
+2025-09-10 14:51:06.538625: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:06.551181: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:06.910601: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:06.934260: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:07.626317: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:07.717202: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:07.952873: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:08.108123: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:08.470076: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:08.474455: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:08.915250: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:08.995187: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:09.265387: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:09.451595: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+2025-09-10 14:51:09.821437: OpenAI API Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/main.py", line 117, in generate_description
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 954, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/threecrowco/Resources/Dev/AIShit/CaptainCaption/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1058, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-ant-a************************************************************************************************bgAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+

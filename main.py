@@ -242,7 +242,13 @@ def process_folder(
 
         # If file doesn't exist, write to it
         with open(txt_path, "w", encoding="utf-8") as f:
-            f.write(pre_prompt + ", " + description + " " + post_prompt)
+            # Build the final text with conditional prefix formatting
+            final_text = description
+            if pre_prompt.strip():
+                final_text = pre_prompt + ", " + final_text
+            if post_prompt.strip():
+                final_text = final_text + " " + post_prompt
+            f.write(final_text)
 
     with ThreadPoolExecutor(max_workers=num_workers) as executor:
         for i, _ in enumerate(executor.map(process_file, file_list), 1):
